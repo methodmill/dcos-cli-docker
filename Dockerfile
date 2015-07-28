@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM frolvlad/alpine-oraclejdk8
 MAINTAINER Alberto Lamela <alberto.lamela@capgemini.com>
 
 ENV DCOS_CONFIG=/dcos-cli/.dcos/dcos.toml
