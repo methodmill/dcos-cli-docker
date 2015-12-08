@@ -20,7 +20,7 @@ COPY dcos-cli.sh /usr/local/bin/dcos-cli.sh
 RUN /bin/bash /dcos-cli/config.sh
 RUN /bin/bash /dcos-cli/setup.sh
 
-RUN /usr/local/bin/dcos-cli.sh package install --cli spark --yes
+RUN /usr/local/bin/dcos-cli.sh package install --cli spark
 
 ENTRYPOINT ["/usr/local/bin/dcos-cli.sh"]
 
