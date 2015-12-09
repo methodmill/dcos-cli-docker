@@ -2,6 +2,7 @@ FROM frolvlad/alpine-oraclejdk8
 MAINTAINER Alberto Lamela <alberto.lamela@capgemini.com>
 
 ENV DCOS_CONFIG=/dcos-cli/.dcos/dcos.toml
+ENV DCOS_CLI_VERSION=0.2.0
 
 RUN apk --update add \
 		bash \
